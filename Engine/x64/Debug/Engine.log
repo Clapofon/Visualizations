@@ -1,0 +1,15 @@
+﻿  Tilemap.cpp
+C:\Users\KtoChcesz\source\repos\Game\Engine\TmxPropertySet.h(69,33): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\KtoChcesz\source\repos\Game\Engine\TmxMap.h(180,38): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\KtoChcesz\source\repos\Game\Engine\TmxMap.h(189,42): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\KtoChcesz\source\repos\Game\Engine\TmxMap.h(198,44): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\KtoChcesz\source\repos\Game\Engine\TmxMap.h(207,43): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\KtoChcesz\source\repos\Game\Engine\TmxMap.h(213,43): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\KtoChcesz\source\repos\Game\Engine\TmxMap.h(226,40): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\KtoChcesz\source\repos\Game\Engine\TmxObjectGroup.h(68,39): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\KtoChcesz\source\repos\Game\Engine\TmxTile.h(81,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\KtoChcesz\source\repos\Game\Engine\TmxPolygon.h(57,38): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\KtoChcesz\source\repos\Game\Engine\TmxPolyline.h(57,38): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\KtoChcesz\source\repos\Game\Engine\SpriteFont.h(38,20): warning C4099: 'Engine::GLTexture': type name first seen using 'struct' now seen using 'class'
+C:\Users\KtoChcesz\source\repos\Game\Engine\GLTexture.h(7): message : see declaration of 'Engine::GLTexture'
+  Engine.vcxproj -> C:\Users\KtoChcesz\source\repos\Game\x64\Debug\Engine.lib

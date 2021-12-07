@@ -1,0 +1,21 @@
+﻿  InfScene.cpp
+C:\Users\KtoChcesz\source\repos\Game\Engine\SpriteFont.h(38,20): warning C4099: 'Engine::GLTexture': type name first seen using 'struct' now seen using 'class'
+C:\Users\KtoChcesz\source\repos\Game\Engine\GLTexture.h(7): message : see declaration of 'Engine::GLTexture'
+C:\Users\KtoChcesz\source\repos\Game\Engine\AnimatedSprite.h(33,34): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+C:\Users\KtoChcesz\source\repos\Game\Engine\IMainGame.h(59,27): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\KtoChcesz\source\repos\Game\Worcella\InfScene.cpp(58,44): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\KtoChcesz\source\repos\Game\Worcella\InfScene.cpp(58,28): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\KtoChcesz\source\repos\Game\Worcella\InfScene.cpp(191,36): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  Worcella.vcxproj -> C:\Users\KtoChcesz\source\repos\Game\x64\Debug\Worcella.exe

@@ -1,0 +1,88 @@
+﻿  AnimatedSprite.cpp
+C:\Users\KtoChcesz\source\repos\Game\Engine\GLTexture.h(3,10): fatal error C1083: Cannot open include file: 'glew.h': No such file or directory
+  AudioEngine.cpp
+  Camera.cpp
+C:\Users\KtoChcesz\source\repos\Game\Engine\Camera.h(3,10): fatal error C1083: Cannot open include file: 'glm.hpp': No such file or directory
+  Engine.cpp
+C:\Users\KtoChcesz\source\repos\Game\Engine\Engine.cpp(1,10): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  Error.cpp
+C:\Users\KtoChcesz\source\repos\Game\Engine\Error.cpp(5,10): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  FontCache.cpp
+C:\Users\KtoChcesz\source\repos\Game\Engine\SpriteFont.h(28,10): fatal error C1083: Cannot open include file: 'SDL_ttf.h': No such file or directory
+  FrameBuffer.cpp
+C:\Users\KtoChcesz\source\repos\Game\Engine\GLTexture.h(3,10): fatal error C1083: Cannot open include file: 'glew.h': No such file or directory
+  GLSLProgram.cpp
+C:\Users\KtoChcesz\source\repos\Game\Engine\GLSLProgram.h(3,10): fatal error C1083: Cannot open include file: 'glew.h': No such file or directory
+  GUI.cpp
+C:\Users\KtoChcesz\source\repos\Game\Engine\GUI.h(3,10): fatal error C1083: Cannot open include file: 'CEGUI/CEGUI.h': No such file or directory
+  ImageLoader.cpp
+C:\Users\KtoChcesz\source\repos\Game\Engine\GLTexture.h(3,10): fatal error C1083: Cannot open include file: 'glew.h': No such file or directory
+  InputManager.cpp
+C:\Users\KtoChcesz\source\repos\Game\Engine\InputManager.h(5,10): fatal error C1083: Cannot open include file: 'glm.hpp': No such file or directory
+  IOManager.cpp
+C:\Users\KtoChcesz\source\repos\Game\Engine\IOManager.cpp(19,22): warning C4244: 'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
+C:\Users\KtoChcesz\source\repos\Game\Engine\IOManager.cpp(22,33): warning C4244: '-=': conversion from 'std::streamoff' to 'int', possible loss of data
+  Particle2D.cpp
+C:\Users\KtoChcesz\source\repos\Game\Engine\Particle2D.h(3,10): fatal error C1083: Cannot open include file: 'glm.hpp': No such file or directory
+  ParticleSystem2D.cpp
+C:\Users\KtoChcesz\source\repos\Game\Engine\Particle2D.h(3,10): fatal error C1083: Cannot open include file: 'glm.hpp': No such file or directory
+  ResourceManager.cpp
+C:\Users\KtoChcesz\source\repos\Game\Engine\GLTexture.h(3,10): fatal error C1083: Cannot open include file: 'glew.h': No such file or directory
+  ShaderCache.cpp
+C:\Users\KtoChcesz\source\repos\Game\Engine\GLSLProgram.h(3,10): fatal error C1083: Cannot open include file: 'glew.h': No such file or directory
+  SpriteBatch.cpp
+C:\Users\KtoChcesz\source\repos\Game\Engine\SpriteBatch.h(3,10): fatal error C1083: Cannot open include file: 'glew.h': No such file or directory
+  SpriteFont.cpp
+C:\Users\KtoChcesz\source\repos\Game\Engine\SpriteFont.h(28,10): fatal error C1083: Cannot open include file: 'SDL_ttf.h': No such file or directory
+  TextureCache.cpp
+C:\Users\KtoChcesz\source\repos\Game\Engine\GLTexture.h(3,10): fatal error C1083: Cannot open include file: 'glew.h': No such file or directory
+  TmxColor.cpp
+C:\Users\KtoChcesz\source\repos\Game\Engine\TmxColor.cpp(99,18): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Generating Code...
+  Compiling...
+  TmxEllipse.cpp
+  TmxGroupLayer.cpp
+C:\Users\KtoChcesz\source\repos\Game\Engine\TmxGroupLayer.cpp(24,10): fatal error C1083: Cannot open include file: 'tinyxml2.h': No such file or directory
+  TmxImage.cpp
+C:\Users\KtoChcesz\source\repos\Game\Engine\TmxImage.cpp(28,10): fatal error C1083: Cannot open include file: 'tinyxml2.h': No such file or directory
+  TmxImageLayer.cpp
+C:\Users\KtoChcesz\source\repos\Game\Engine\TmxImageLayer.cpp(24,10): fatal error C1083: Cannot open include file: 'tinyxml2.h': No such file or directory
+  TmxLayer.cpp
+C:\Users\KtoChcesz\source\repos\Game\Engine\TmxLayer.cpp(24,10): fatal error C1083: Cannot open include file: 'tinyxml2.h': No such file or directory
+  TmxMap.cpp
+C:\Users\KtoChcesz\source\repos\Game\Engine\TmxMap.cpp(28,10): fatal error C1083: Cannot open include file: 'tinyxml2.h': No such file or directory
+  TmxObject.cpp
+C:\Users\KtoChcesz\source\repos\Game\Engine\TmxObject.cpp(28,10): fatal error C1083: Cannot open include file: 'tinyxml2.h': No such file or directory
+  TmxObjectGroup.cpp
+C:\Users\KtoChcesz\source\repos\Game\Engine\TmxObjectGroup.cpp(28,10): fatal error C1083: Cannot open include file: 'tinyxml2.h': No such file or directory
+  TmxPolygon.cpp
+C:\Users\KtoChcesz\source\repos\Game\Engine\TmxPolygon.cpp(28,10): fatal error C1083: Cannot open include file: 'tinyxml2.h': No such file or directory
+  TmxPolyline.cpp
+C:\Users\KtoChcesz\source\repos\Game\Engine\TmxPolyline.cpp(28,10): fatal error C1083: Cannot open include file: 'tinyxml2.h': No such file or directory
+  TmxProperty.cpp
+C:\Users\KtoChcesz\source\repos\Game\Engine\TmxProperty.cpp(28,10): fatal error C1083: Cannot open include file: 'tinyxml2.h': No such file or directory
+  TmxPropertySet.cpp
+C:\Users\KtoChcesz\source\repos\Game\Engine\TmxPropertySet.cpp(28,10): fatal error C1083: Cannot open include file: 'tinyxml2.h': No such file or directory
+  TmxTerrain.cpp
+C:\Users\KtoChcesz\source\repos\Game\Engine\TmxTerrain.cpp(28,10): fatal error C1083: Cannot open include file: 'tinyxml2.h': No such file or directory
+  TmxTerrainArray.cpp
+C:\Users\KtoChcesz\source\repos\Game\Engine\TmxTerrainArray.cpp(28,10): fatal error C1083: Cannot open include file: 'tinyxml2.h': No such file or directory
+  TmxText.cpp
+C:\Users\KtoChcesz\source\repos\Game\Engine\TmxText.cpp(29,10): fatal error C1083: Cannot open include file: 'tinyxml2.h': No such file or directory
+  TmxTile.cpp
+C:\Users\KtoChcesz\source\repos\Game\Engine\TmxTile.cpp(28,10): fatal error C1083: Cannot open include file: 'tinyxml2.h': No such file or directory
+  TmxTileLayer.cpp
+C:\Users\KtoChcesz\source\repos\Game\Engine\TmxTileLayer.cpp(24,10): fatal error C1083: Cannot open include file: 'tinyxml2.h': No such file or directory
+  TmxTileOffset.cpp
+C:\Users\KtoChcesz\source\repos\Game\Engine\TmxTileOffset.cpp(28,10): fatal error C1083: Cannot open include file: 'tinyxml2.h': No such file or directory
+  TmxTileset.cpp
+C:\Users\KtoChcesz\source\repos\Game\Engine\TmxTileset.cpp(28,10): fatal error C1083: Cannot open include file: 'tinyxml2.h': No such file or directory
+  TmxUtil.cpp
+C:\Users\KtoChcesz\source\repos\Game\Engine\TmxUtil.cpp(37,10): fatal error C1083: Cannot open include file: 'zlib.h': No such file or directory
+  Generating Code...
+  Compiling...
+  WaterTile.cpp
+C:\Users\KtoChcesz\source\repos\Game\Engine\WaterTile.h(3,10): fatal error C1083: Cannot open include file: 'glm.hpp': No such file or directory
+  Window.cpp
+C:\Users\KtoChcesz\source\repos\Game\Engine\Window.h(3,10): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  Generating Code...

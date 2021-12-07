@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{0AF05783-0E12-4BBC-9EE6-A18EDFA00470}</ProjectGuid>
+    <RootNamespace>Engine</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Users\KtoChcesz\source\repos\Game\Engine\imgui-master;C:\Game\Engine\cegui-test\include;C:\dev\SDL2_mixer\include;C:\dev\zlib;C:\dev\tinyxml2;C:\dev\SDL2_ttf\include;C:\dev\SDL2\include;C:\dev\glm\glm;C:\dev\glew\include\GL;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\KtoChcesz\source\repos\Game\Engine\cegui-test\bin;C:\Users\KtoChcesz\source\repos\Game\Engine\cegui-test\lib;C:\dev\fmod\bin;C:\dev\SDL2_ttf\lib\x64;C:\dev\SDL2_mixer\lib\x64;C:\dev\SDL2\lib\x64;C:\dev\glew\lib\Release\x64</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Game\Engine\cegui-test\include;C:\dev\SDL2_mixer\include;C:\dev\zlib;C:\dev\tinyxml2;C:\dev\SDL2_ttf\include;C:\dev\SDL2\include;C:\dev\glm\glm;C:\dev\glew\include\GL;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\KtoChcesz\source\repos\Game\Engine\cegui-test\lib;C:\dev\fmod\bin;C:\dev\SDL2_ttf\lib\x64;C:\dev\SDL2_mixer\lib\x64;C:\dev\SDL2\lib\x64;C:\dev\glew\lib\Release\x64</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\KtoChcesz\source\repos\Game\Engine\imgui-master;C:\Users\KtoChcesz\source\repos\Game\Engine\cegui-test\include;C\dev\SDL2_mixer\include;C:\dev\zlib;C:\dev\tinyxml2;C:\dev\SDL2_ttf\include;C:\dev\SDL2\include;C:\dev\glm\glm;C:\dev\glew\include\GL;$(IncludePath)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_ttf.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\dev\SDL2_ttf\lib\x64;C:\dev\_bin;C:\dev\glew\lib\Release\x64;C:\dev\SDL2\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\KtoChcesz\source\repos\Game\Engine\cegui-test\include;C:\dev\SDL2_mixer\include;C:\dev\zlib;C:\dev\tinyxml2;C:\dev\SDL2_ttf\include;C:\dev\SDL2\include;C:\dev\glm\glm;C:\dev\glew\include\GL;$(IncludePath)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\..\dev\tinyxml2\tinyxml2.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\dev\zlib\adler32.c" />
+    <ClCompile Include="..\..\..\..\..\..\dev\zlib\compress.c" />
+    <ClCompile Include="..\..\..\..\..\..\dev\zlib\crc32.c" />
+    <ClCompile Include="..\..\..\..\..\..\dev\zlib\deflate.c" />
+    <ClCompile Include="..\..\..\..\..\..\dev\zlib\gzclose.c" />
+    <ClCompile Include="..\..\..\..\..\..\dev\zlib\gzlib.c" />
+    <ClCompile Include="..\..\..\..\..\..\dev\zlib\gzread.c" />
+    <ClCompile Include="..\..\..\..\..\..\dev\zlib\gzwrite.c" />
+    <ClCompile Include="..\..\..\..\..\..\dev\zlib\infback.c" />
+    <ClCompile Include="..\..\..\..\..\..\dev\zlib\inffast.c" />
+    <ClCompile Include="..\..\..\..\..\..\dev\zlib\inflate.c" />
+    <ClCompile Include="..\..\..\..\..\..\dev\zlib\inftrees.c" />
+    <ClCompile Include="..\..\..\..\..\..\dev\zlib\trees.c" />
+    <ClCompile Include="..\..\..\..\..\..\dev\zlib\uncompr.c" />
+    <ClCompile Include="..\..\..\..\..\..\dev\zlib\zutil.c" />
+    <ClCompile Include="AnimatedSprite.cpp" />
+    <ClCompile Include="AudioEngine.cpp" />
+    <ClCompile Include="base64.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="DefaultShader.cpp" />
+    <ClCompile Include="Engine.cpp" />
+    <ClCompile Include="Error.cpp" />
+    <ClCompile Include="Fact.cpp" />
+    <ClCompile Include="FontCache.cpp" />
+    <ClCompile Include="FrameBuffer.cpp" />
+    <ClCompile Include="GLSLProgram.cpp" />
+    <ClCompile Include="GUI.cpp" />
+    <ClCompile Include="ImageLoader.cpp" />
+    <ClCompile Include="IMainGame.cpp" />
+    <ClCompile Include="imgui-master\backends\imgui_impl_opengl3.cpp" />
+    <ClCompile Include="imgui-master\backends\imgui_impl_sdl.cpp" />
+    <ClCompile Include="imgui-master\imgui.cpp" />
+    <ClCompile Include="imgui-master\imgui_draw.cpp" />
+    <ClCompile Include="imgui-master\imgui_tables.cpp" />
+    <ClCompile Include="imgui-master\imgui_widgets.cpp" />
+    <ClCompile Include="InputManager.cpp" />
+    <ClCompile Include="IOManager.cpp" />
+    <ClCompile Include="Loader.cpp" />
+    <ClCompile Include="Minimap.cpp" />
+    <ClCompile Include="miniz.c" />
+    <ClCompile Include="Objective.cpp" />
+    <ClCompile Include="OBJLoader.cpp" />
+    <ClCompile Include="Particle2D.cpp" />
+    <ClCompile Include="ParticleSystem2D.cpp" />
+    <ClCompile Include="PicoPNG.cpp" />
+    <ClCompile Include="Quest.cpp" />
+    <ClCompile Include="QuestSystem.cpp" />
+    <ClCompile Include="Random.cpp" />
+    <ClCompile Include="RawModel.cpp" />
+    <ClCompile Include="Renderer3D.cpp" />
+    <ClCompile Include="ResourceManager.cpp" />
+    <ClCompile Include="ScreenList.cpp" />
+    <ClCompile Include="ShaderCache.cpp" />
+    <ClCompile Include="SpriteBatch.cpp" />
+    <ClCompile Include="SpriteFont.cpp" />
+    <ClCompile Include="TextureCache.cpp" />
+    <ClCompile Include="TexturedModel.cpp" />
+    <ClCompile Include="Tilemap.cpp" />
+    <ClCompile Include="TmxColor.cpp" />
+    <ClCompile Include="TmxEllipse.cpp" />
+    <ClCompile Include="TmxGroupLayer.cpp" />
+    <ClCompile Include="TmxImage.cpp" />
+    <ClCompile Include="TmxImageLayer.cpp" />
+    <ClCompile Include="TmxLayer.cpp" />
+    <ClCompile Include="TmxMap.cpp" />
+    <ClCompile Include="TmxObject.cpp" />
+    <ClCompile Include="TmxObjectGroup.cpp" />
+    <ClCompile Include="TmxPolygon.cpp" />
+    <ClCompile Include="TmxPolyline.cpp" />
+    <ClCompile Include="TmxProperty.cpp" />
+    <ClCompile Include="TmxPropertySet.cpp" />
+    <ClCompile Include="TmxTerrain.cpp" />
+    <ClCompile Include="TmxTerrainArray.cpp" />
+    <ClCompile Include="TmxText.cpp" />
+    <ClCompile Include="TmxTile.cpp" />
+    <ClCompile Include="TmxTileLayer.cpp" />
+    <ClCompile Include="TmxTileOffset.cpp" />
+    <ClCompile Include="TmxTileset.cpp" />
+    <ClCompile Include="TmxUtil.cpp" />
+    <ClCompile Include="WaterTile.cpp" />
+    <ClCompile Include="Window.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\..\dev\tinyxml2\tinyxml2.h" />
+    <ClInclude Include="..\..\..\..\..\..\dev\zlib\crc32.h" />
+    <ClInclude Include="..\..\..\..\..\..\dev\zlib\deflate.h" />
+    <ClInclude Include="..\..\..\..\..\..\dev\zlib\gzguts.h" />
+    <ClInclude Include="..\..\..\..\..\..\dev\zlib\inffast.h" />
+    <ClInclude Include="..\..\..\..\..\..\dev\zlib\inffixed.h" />
+    <ClInclude Include="..\..\..\..\..\..\dev\zlib\inflate.h" />
+    <ClInclude Include="..\..\..\..\..\..\dev\zlib\inftrees.h" />
+    <ClInclude Include="..\..\..\..\..\..\dev\zlib\trees.h" />
+    <ClInclude Include="..\..\..\..\..\..\dev\zlib\zconf.h" />
+    <ClInclude Include="..\..\..\..\..\..\dev\zlib\zlib.h" />
+    <ClInclude Include="..\..\..\..\..\..\dev\zlib\zutil.h" />
+    <ClInclude Include="AnimatedSprite.h" />
+    <ClInclude Include="AudioEngine.h" />
+    <ClInclude Include="base64.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Camera3D.h" />
+    <ClInclude Include="Collider2D.h" />
+    <ClInclude Include="Collision.h" />
+    <ClInclude Include="DefaultShader.h" />
+    <ClInclude Include="Engine.h" />
+    <ClInclude Include="Entity.h" />
+    <ClInclude Include="Error.h" />
+    <ClInclude Include="Fact.h" />
+    <ClInclude Include="FontCache.h" />
+    <ClInclude Include="FrameBuffer.h" />
+    <ClInclude Include="GLSLProgram.h" />
+    <ClInclude Include="GLTexture.h" />
+    <ClInclude Include="GUI.h" />
+    <ClInclude Include="IGameScene.h" />
+    <ClInclude Include="ImageLoader.h" />
+    <ClInclude Include="IMainGame.h" />
+    <ClInclude Include="imgui-master\backends\imgui_impl_opengl3.h" />
+    <ClInclude Include="imgui-master\backends\imgui_impl_sdl.h" />
+    <ClInclude Include="imgui-master\imconfig.h" />
+    <ClInclude Include="imgui-master\imgui.h" />
+    <ClInclude Include="imgui-master\imgui_internal.h" />
+    <ClInclude Include="imgui-master\imstb_rectpack.h" />
+    <ClInclude Include="imgui-master\imstb_textedit.h" />
+    <ClInclude Include="imgui-master\imstb_truetype.h" />
+    <ClInclude Include="Input.hpp" />
+    <ClInclude Include="InputManager.h" />
+    <ClInclude Include="IOManager.h" />
+    <ClInclude Include="Light.h" />
+    <ClInclude Include="Loader.h" />
+    <ClInclude Include="Math.h" />
+    <ClInclude Include="Minimap.h" />
+    <ClInclude Include="Objective.h" />
+    <ClInclude Include="OBJLoader.h" />
+    <ClInclude Include="Particle2D.h" />
+    <ClInclude Include="ParticleSystem2D.h" />
+    <ClInclude Include="picoPNG.h" />
+    <ClInclude Include="Quest.h" />
+    <ClInclude Include="QuestSystem.h" />
+    <ClInclude Include="Random.h" />
+    <ClInclude Include="RawModel.h" />
+    <ClInclude Include="Renderer3D.h" />
+    <ClInclude Include="ResourceManager.h" />
+    <ClInclude Include="ScreenList.h" />
+    <ClInclude Include="ShaderCache.h" />
+    <ClInclude Include="SpriteBatch.h" />
+    <ClInclude Include="SpriteFont.h" />
+    <ClInclude Include="StringUtil.h" />
+    <ClInclude Include="TextureCache.h" />
+    <ClInclude Include="TexturedModel.h" />
+    <ClInclude Include="Tilemap.h" />
+    <ClInclude Include="TmxColor.h" />
+    <ClInclude Include="TmxEllipse.h" />
+    <ClInclude Include="TmxGroupLayer.h" />
+    <ClInclude Include="TmxImage.h" />
+    <ClInclude Include="TmxImageLayer.h" />
+    <ClInclude Include="TmxLayer.h" />
+    <ClInclude Include="TmxMap.h" />
+    <ClInclude Include="TmxMapTile.h" />
+    <ClInclude Include="TmxObject.h" />
+    <ClInclude Include="TmxObjectGroup.h" />
+    <ClInclude Include="TmxPoint.h" />
+    <ClInclude Include="TmxPolygon.h" />
+    <ClInclude Include="TmxPolyline.h" />
+    <ClInclude Include="TmxProperty.h" />
+    <ClInclude Include="TmxPropertySet.h" />
+    <ClInclude Include="TmxTerrain.h" />
+    <ClInclude Include="TmxTerrainArray.h" />
+    <ClInclude Include="TmxText.h" />
+    <ClInclude Include="TmxTile.h" />
+    <ClInclude Include="TmxTileLayer.h" />
+    <ClInclude Include="TmxTileOffset.h" />
+    <ClInclude Include="TmxTileset.h" />
+    <ClInclude Include="TmxUtil.h" />
+    <ClInclude Include="Vertex.h" />
+    <ClInclude Include="WaterTile.h" />
+    <ClInclude Include="Window.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Tmx.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
